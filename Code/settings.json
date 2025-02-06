@@ -1,0 +1,251 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.revealIfOpen": true,
+  "editor.renderControlCharacters": true,
+  "editor.fontSize": 15,
+  "editor.fontFamily": "'FiraCode-Retina', Monaco, 'Courier New', monospace",
+  "editor.fontWeight": "500",
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "underline",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.formatOnPaste": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.tokenColorCustomizations": {
+    "comments": "#04724D"
+  },
+  "[elixir]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "zenMode.fullScreen": false,
+  "zenMode.hideLineNumbers": true,
+  "zenMode.restore": true,
+  "editor.wordWrap": "on",
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#000000",
+    "tab.activeForeground": "#ffffff",
+    "tab.activeBorderTop": "#80CBC4",
+    "tab.inactiveBackground": "#5b5b5b13",
+    "editorCursor.foreground": "#ff00dd",
+    "terminalCursor.foreground": "#ff00dd",
+    "terminal.selectionBackground": "#e26cffcb",
+    "sideBar.foreground": "#ffffffc1",
+    "list.inactiveSelectionForeground": "#ff006f",
+    "editorLineNumber.activeForeground": "#f2b880",
+    "editorLineNumber.foreground": "#F6D8AE",
+    "[Material Theme Ocean High Contrast]": {
+      "activityBarBadge.background": "#80CBC4",
+      "activityBar.activeBorder": "#80CBC4",
+      "list.activeSelectionForeground": "#80CBC4",
+      "list.inactiveSelectionForeground": "#80CBC4",
+      "list.highlightForeground": "#80CBC4",
+      "scrollbarSlider.activeBackground": "#80CBC450",
+      "editorSuggestWidget.highlightForeground": "#80CBC4",
+      "textLink.foreground": "#80CBC4",
+      "progressBar.background": "#80CBC4",
+      "pickerGroup.foreground": "#80CBC4",
+      "tab.activeBorder": "#80CBC4",
+      "notificationLink.foreground": "#80CBC4",
+      "editorWidget.resizeBorder": "#80CBC4",
+      "editorWidget.border": "#80CBC4",
+      "settings.modifiedItemIndicator": "#80CBC4",
+      "settings.headerForeground": "#80CBC4",
+      "panelTitle.activeBorder": "#80CBC4",
+      "breadcrumb.activeSelectionForeground": "#80CBC4",
+      "menu.selectionForeground": "#80CBC4",
+      "menubar.selectionForeground": "#80CBC4",
+      "editor.findMatchBorder": "#80CBC4",
+      "selection.background": "#80CBC440",
+      "statusBarItem.remoteBackground": "#80CBC4",
+      "tab.unfocusedActiveBorder": "#000000",
+      "terminal.findMatchBackground": "#ffbb33af",
+      "terminal.findMatchBorder": "#ff8833",
+      "terminal.findMatchHighlightBackground": "#ffbb33e1",
+      "terminal.findMatchHighlightBorder": "#ffbb33",
+      "terminalOverviewRuler.findMatchForeground": "#00b7ff"
+    }
+  },
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "explorer.confirmDragAndDrop": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "HTML (Eex)": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.cursorBlinking": "smooth",
+  "prettier.semi": false,
+  "peacock.favoriteColors": [
+    {
+      "name": "district-ui-client ",
+      "value": "#662C91"
+    },
+    {
+      "name": "fast-phonics-client",
+      "value": "#F87060"
+    },
+    {
+      "name": "mathseeds-client",
+      "value": "#17A398"
+    },
+    {
+      "name": "mathseeds-prime-client",
+      "value": "#3DDC97"
+    },
+    {
+      "name": "parent-ui-client",
+      "value": "#32021F"
+    },
+    {
+      "name": "re-client",
+      "value": "#372549"
+    },
+    {
+      "name": "re-tablet",
+      "value": "#074F57"
+    },
+    {
+      "name": "readingeggs-junior-client",
+      "value": "#FFFFC7"
+    },
+    {
+      "name": "rex-client",
+      "value": "#1B263B"
+    },
+    {
+      "name": "shop-client",
+      "value": "#F0803C"
+    },
+    {
+      "name": "teacher-ui-client",
+      "value": "#80A1D4"
+    },
+    {
+      "name": "wf-student-client",
+      "value": "#8B2635"
+    },
+    {
+      "name": "wf-teacher-client",
+      "value": "#D95D39"
+    }
+  ],
+  "files.trimTrailingWhitespace": true,
+  "peacock.affectStatusBar": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.tree.indent": 20,
+  "workbench.tree.renderIndentGuides": "always",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "editor.fontLigatures": true,
+  "cSpell.userWords": ["Declan", "arity", "drogon", "entrypoint", "rollbar"],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cSpell.enabledLanguageIds": [
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "git-commit",
+    "go",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pug",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "glimmer-js",
+    "glimmer-ts"
+  ],
+  "eslint.validate": ["glimmer-ts", "glimmer-js"],
+  "peacock.affectTabActiveBorder": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeAction.disableRuleComment": {},
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "turboConsoleLog.logMessagePrefix": "DB",
+  "workbench.sideBar.location": "left",
+  "materialTheme.accent": "Teal",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "redhat.telemetry.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.useEditorConfig": false,
+  "git.enabled": true,
+  "git.path": "/usr/local/bin/hub",
+  "git.confirmSync": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "kite.showWelcomeNotificationOnStartup": false,
+  "bracketPairColorizer.depreciation-notice": false,
+  "peacock.affectEditorGroupBorder": true,
+  "peacock.affectPanelBorder": true,
+  "peacock.affectSideBarBorder": true,
+  "peacock.affectStatusAndTitleBorders": true,
+  "workbench.startupEditor": "none",
+  "tabnine.experimentalAutoImports": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "gitlens.defaultDateFormat": null,
+  "nxConsole.showNodeVersionOnStartup": false,
+  "editor.inlineSuggest.showToolbar": "always",
+  "window.zoomLevel": -1,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[glimmer-js]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.foldingStrategy": "indentation"
+  },
+  "[glimmer-ts]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.foldingStrategy": "indentation"
+  },
+  "prettier.documentSelectors": ["**/*.*", "**/*.gts", "**/*.gjs"],
+  "github.copilot.editor.enableAutoCompletions": true
+}
