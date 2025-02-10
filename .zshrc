@@ -34,7 +34,7 @@ alias jira="git branch | grep '^*'| cut -d ' ' -f2- | cut -d '-' -f 1,2 | xargs 
 alias nr="npm run"
 alias ni="npm install"
 
-alias gclean="git branch --merged | grep -v '*|master|develop|main' | xargs -n 1 git branch -d"
+alias gclean="git branch --merged | grep -v '*|master|develop|main' | xargs -p -n 1 git branch -d"
 
 alias es="ember s"
 alias juan="bx jupiter -n"
@@ -85,6 +85,8 @@ export PATH=/Users/Shared/DBngin/mysql/8.0.33/bin:$PATH
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+source <(fzf --zsh)
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
@@ -191,3 +193,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+bindkey '^[[A' history-substring-search-up
+bindkey '^[OA' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+bindkey '^[OB' history-substring-search-down
